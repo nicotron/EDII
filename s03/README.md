@@ -26,4 +26,4 @@ Contenidos a tratar:
 
 No se alcanzó a realizar la siguiente unidad:
 -flow: void setup(){} void draw(){}
-s03e0x 10 point line rect ellipse strokeWeight
+s03e0x 10 point line rect ellipse strokeWeight.
