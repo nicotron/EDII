@@ -30,4 +30,5 @@ En Description va un mensaje de lo que contiene el ejercicio de manera que usted
 "Elección de dos colores más blanco y negro para la documentación de los prototipos de cada entrega."
 
 4 COMMIT TO MASTER
+click en commit to master y luego en Sync
 Con el click ya queda lista la entrega. 
