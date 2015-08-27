@@ -54,14 +54,14 @@ notación:  0.2
 github:    0.1
 
 Notas de la entrega:
-Angélica Diaz	1.0 (3.5)
-Isidora Garin 4.6
-Isidora Vergara 3.5
-Laura Calvo 4.4
-Maximiliano Cordero 4.0
-Paloma Sastre 4.5
-Pascuala Sylleros 4.5
-Vicente Politeo 4.3
+Angélica Diaz	1.0 (5.0)
+Isidora Garin 5.1
+Isidora Vergara 4.5
+Laura Calvo 4.9
+Maximiliano Cordero 5.0
+Paloma Sastre 5.0
+Pascuala Sylleros 5.0
+Vicente Politeo 5.3
 --Sin entrega
 Bernardita Lira 1.0	
 Sofia Bellinghausen 1.0
