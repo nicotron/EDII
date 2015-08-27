@@ -7,7 +7,6 @@
 float cx; //posicion ellipse
 int v;
 int a;
-float b;
 
 void setup( ) {
   size(500, 500);
@@ -15,7 +14,6 @@ void setup( ) {
   cx= 10;
   v= color(103, 155, 53); //verde
   a= color(0, 72, 156); //azul
-  b= color(0); //negro
   
 }
 
@@ -34,9 +32,10 @@ void draw ( ) {
   }
   
   
-  //Si alcanza la mitad de su camino 
+  //Si alcanza la mitad de su camino cambia de tamaño y el color de la ellipse se cambia con el del fondo
   else if (cx >= 100) {
-    fill(b);
+    background(a);
+    fill(v);
     ellipse(cx, cx, 20, 20);
   }
   
