@@ -31,6 +31,12 @@ void draw ( ) {
     cx= 10;
   }
   
+  
+  //Si alcanza la mitad de su camino 
+  else if (cx >= 100) {
+    ellipse(cx, cx, 20, 20);
+  }
+  
   //movimiento de pelota, 1 px por actualización
   cx ++; 
   
