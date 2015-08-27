@@ -18,15 +18,18 @@ void draw () {
   background (c1); //color turquesa fondo
   noStroke ();
   fill (c2);
-  ellipse (cx, height/2, 10, 10);
+  ellipse (cx, height/2, 25, 25);
   
-  //ellipse color verde
+  //ellipse color verde, fondo turquesa
   if (cx >= width/2) {
     fill (c2);
-    ellipse (cx, height/2, 50, 50); // 1/4 del ancho
-  } else if (cx > width/2) {
-    fill (c2);
-    ellipse (cx, height/2, 25, 25); // 2/4 del ancho
+    ellipse (cx, height/2, 25, 25); // 1/4 del ancho
+  } else if (cx < width/2) {
+    background (c2); //
+    fill (c1);
+    ellipse (cx, height/2, 50, 50); // 2/4 del ancho
+  } if (cx > width) {
+    cx = 0;
   }
   cx += 3;
 }
