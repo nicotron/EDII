@@ -1,13 +1,12 @@
 //UDD-Expresión Digital II
-//s04t01Vicente
-//Mover un elemento que rebote en los bordes del canvas
+//S05E01_Vicente
+//Integrar un for dentro del codigo de un elemento que rebote en los bordes del canvas
 
 
   int color_b; 
   int color_n;
   int color_a;
   int color_y; //variables colores
-
   float circulo_x;
   float circulo_y;
   float movimiento_x;
@@ -33,10 +32,10 @@ void setup() {
 
 void draw() {
   background(color_a); //color de fondo azul
-  ellipse(circulo_x, circulo_y, 40, 40);
-  for(int i = 0; i < width; i +=10){
+  for(int i = 0; i < width; i +=10){  //cada vez que la pelota toca los bordes cambia los colores de la onda
         fill(color_y);
          ellipse( i, height/2, random(10), random(50));
+         ellipse(circulo_x, circulo_y, 40, 40);
        }
  
   circulo_x = circulo_x + movimiento_x; //movimiento horizontal del elemento (1.9px/frame)
