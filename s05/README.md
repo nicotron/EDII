@@ -8,3 +8,15 @@ Curso dictado por:
 Nicolás Troncoso @nicotron
 
 Alumnos:
+Angélica Diaz
+Bernardita Lira
+Catalina Juez
+Carlos Gasan
+Isidora Garin
+Isidora Vergara
+Laura Calvo
+Maximiliano Cordero
+Paloma Sastre
+Pascuala Sylleros
+Sofia Bellinghausen
+Vicente Politeo
