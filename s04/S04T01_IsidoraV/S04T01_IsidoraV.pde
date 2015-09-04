@@ -1,5 +1,5 @@
 //UDD- Expresión Digital II
-//S04T01IsidoraV
+//s04t01IsidoraV 
 //Mover un elemento que rebote por los bordes del canvas, cambiando posicion, tamaño, y loop
 
 float x; //posicion x
