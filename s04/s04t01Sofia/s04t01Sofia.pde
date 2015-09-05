@@ -31,6 +31,9 @@ void setup () {
 void draw() {
   background (cb); //color blanco de fondo del canvas 
   ellipse (pox, poy, 50, 50); //La ubicación de la elipse al inicio y su tamaño de 60px x 60px sin stroke
+  //si la ellipse es de 50 ¿por qué el comentario dice 60px igual que el comentario de la Ange?
+  //el comentario dice sin stroke, pero no hay una funcion declarada para eso
+  //noStroke();
 
   pox = pox + dirx; //la posición de la elipse en x es igual a la posición en x más la dirección x
   poy = poy + diry; //la posición de la elipse en y es igual a la posición en y más la dirección y
@@ -63,3 +66,20 @@ void draw() {
     strokeWeight (20); //el borde será de 20px
   }
 }
+
+
+/*
+errores
+ COPIA BLOQUES DE CODIGO COMPLETO Y CAMBIA SOLO NOMBRES Y VALORES DE VARIABLES
+ NO SE PUEDE CORREGIR PORQUE ES LA MISMA ESTRUCTURA QUE EL TRABAJO DE ANGELICA
+ s04t01Ange.pde == s04t01Sofia.pde
+ 0 run
+ 0 programa
+ 0 sintaxis
+ 0 código:
+ 0 comentario:
+ 0 variables:
+ 0 ortografía:
+ 1 notación: no entrega en la carpeta de la semana
+ 0 github: El error de Laura hizo imposible seguir el camino de los commits :/
+ */

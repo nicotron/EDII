@@ -31,7 +31,8 @@ void setup() {
 }
 
 void draw() {
-  background(cb); //el fondo es blanco
+  background(cb); //el fondo es blanco    
+  //al no usar funciones de stroke, strokeWieght y fill para inicializar la pelota y tampoco antes de dibujarla por primera vez, (en ésta línea) la pelota parte con los colores por defecto de Processing
   ellipse(circleX, circleY, 65, 65); //elipse empieza su trayecto en la mitad del margen derecho de Y, y tiene un tamaño de 65x65 px
 
   circleX = circleX + moveX; //se le va sumando 4 pixeles en cada frame, a la posicion en la que este el elipse en el eje x
@@ -65,4 +66,17 @@ void draw() {
     strokeWeight(80); //el borde del elipse tiene grosor de 80 px
   }
 }
+
+/*
+errores
+ 0 run
+ 0 programa
+ 0 sintaxis
+ 1 código: no inicializa funciones de stroke, strokeWeight y fill
+ 0 comentario:
+ 0 variables:
+ 0 ortografía:
+ 0 notación:
+ 0 github: El error de Laura hizo imposible seguir el camino de los commits :/
+ */
 
