@@ -1,6 +1,6 @@
 //UDD - Expresión Digital II
 //s04t01 laura 
-//Pelota que rebota en los bordes del canvas y cambiando de posición, color y tamaño.
+//Pelota que rebota en los bordes del canvas y cada ves que rebota , las pelotitas del fondo se separan.
 int a;
 
 int c1; //variable color blanco
@@ -77,4 +77,3 @@ void draw() {
     }
   }
 }
-
