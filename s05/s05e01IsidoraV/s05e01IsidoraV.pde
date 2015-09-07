@@ -46,7 +46,7 @@ void draw() {
   
   noStroke ( );
   fill(v);
-  ellipse(x, y, d, 20);
+  ellipse(x, y, 20, 20);
   
   
   
@@ -92,3 +92,11 @@ void draw() {
 
   
 }
+
+/*
+errores
+ 0 integración for: 
+ 1 notación: nuevamente, el archivo sin guión s05e01IsidoraV
+ 0 github:
+ */
+

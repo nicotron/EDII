@@ -8,7 +8,7 @@ Durante el período Agosto a Diciembre de 2015.
 Curso dictado por:
 Nicolás Troncoso @nicotron
 
-Alumnos de la clase:
+Alumnos de la clase (11 de 12):
 Angélica Diaz - Andrés Marin - Bernardita Lira - Isidora Garin - Isidora Vergara - Laura Calvo - Maximiliano Cordero - Paloma Sastre - Pascuala Sylleros - Sofia Bellinghausen - Vicente Politeo. --Carlos Gasan
 
 El objetivo de la clase es aprender a usar funciones básicas de iteración y variables.
@@ -38,3 +38,45 @@ void mouseButton{}
 void mouseWheel(){}
 --pendiente
 void funcionesPropias(){}
+
+Se realizó un ejercicio s05e01 el cual debía contener un doble for loop dentro del código de la tarea anterior s04t01.
+
+Factores de evaluación:
+A) Realizar un commit: Entregar a tiempo, Sumary y Mensaje con coherencia respecto a la notación de los archivos.
+B) Integrar dentro de los bloques de código el doble for loop.
+C) Una vez logrado se pidió si podían modificar el for loop con las condicionales del código anterior; se ésta forma se evaluará el razonamiento lógico de entender la sintaxis previamente escrita y la modificación para generar el nuevo cambio. 
+
+Escala de descuento de cada error, cada alumno inicia con nota 7.0 ante cada error se descontará el tipo de error:
+copiar pegar el código: -7.0
+integrar el for loop: -1.0
+modificar for loop en if: +0.5
+github: -0.1
+
+Entrega (10 de 11):
+- Angélica Diaz
+- Andrés Marin
+- Bernardita Lira
+- Isidora Garin
+- Isidora Vergara
+- Maximiliano Cordero
+- Paloma Sastre
+- Pascuala Sylleros
+- Sofia Bellinghausen
+- Vicente Politeo
+
+Sin entrega:
+- Laura Calvo
+
+Notas:
+- Angélica Diaz 1.0
+- Andrés Marin pendiente
+- Bernardita Lira 1.0
+- Isidora Garin 7.0
+- Isidora Vergara 6.5
+- Maximiliano Cordero 6.0
+- Paloma Sastre 1.0
+- Pascuala Sylleros 7.0
+- Sofia Bellinghausen 1.0
+- Vicente Politeo 6.0
+
+Se hizo un commit de los programas con comentarios de los descuentos.

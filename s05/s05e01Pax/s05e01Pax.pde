@@ -81,3 +81,9 @@ void draw() {
   }
 }
 
+/*
+errores
+ 0 integración for: 
+ 0 notación:  
+ 0 github:
+ */

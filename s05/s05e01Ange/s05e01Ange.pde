@@ -83,3 +83,11 @@ void draw() {
   }
 }
 
+
+/*
+errores
+ 1 copiar pegar el código: al copiar el método de @Pax no queda claro si entiende lo hecho
+ 0 integración for: 
+ 0 notación:  
+ 0 github:
+ */

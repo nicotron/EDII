@@ -80,3 +80,31 @@ void draw() {
   }
 }
 
+/*
+errores
+ 1 integración for: la pelota está dentro del for loop.
+ 1 notación: nuevamente, el archivo es en bajas y sin guión s05e01Vicente  
+ 0 github:
+ */
+
+
+for (int i = 0; i < width; i +=10) {
+  fill(color_y);
+  ellipse( i, height/2, random(10), random(50));
+  ellipse(circulo_x, circulo_y, 40, 40); //error
+}
+
+error: 
+no es necesario que la ellipse que rebota esté dentro del for loop porque los argumentos
+que le diste no cambian al ser variables globales. 
+En ese for loop que escribiste, estás dibujando la ellipse que rebota 40 veces por frame
+y no hay cambio. 
+Puedes hacer dos cosas:
+1.- Si la ellipse no quieres que se afecte por el for loop,
+cambiar la ellipse que rebota antes del for loop.
+2.- si quieres que se afecte por el for loop, usar la i dentro de los argumentos de la 
+función ellipse
+ellipse(circulo_x, circulo_y, 40 + i, 40 + i);
+ellipse(circulo_x, circulo_y, i, i);
+ellipse(circulo_x, circulo_y, 40, 40 * i);
+etc
