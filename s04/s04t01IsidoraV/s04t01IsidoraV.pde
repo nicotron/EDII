@@ -89,7 +89,9 @@ errores
  0 comentario:
  4 variables: variables con inicial en Alta, no uso de variables del sistema
  28 ortografía: espacios + 6 dobles punto y a parte (enter)
- 2 notación: el archivo debe ser son minúsculas, sin guión y la inicial del nombre en mayúscula, la ruta es en la carpeta de la semana.
+ 1 notación: el archivo debe ser son minúsculas, sin guión y la inicial del nombre en mayúscula, la ruta es en la carpeta de la semana.
  0 github: El error de Laura hizo imposible seguir el camino de los commits :/
+ 
+ CAMBIAR NOTA POR NOTACION
  */
  
