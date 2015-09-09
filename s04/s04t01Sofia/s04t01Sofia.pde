@@ -29,8 +29,8 @@ void setup () {
 }
 
 void draw() {
-  background (cb); //color blanco de fondo del canvas 
-  ellipse (pox, poy, 50, 50); //La ubicación de la elipse al inicio y su tamaño de 60px x 60px sin stroke
+  background(cb); //color blanco de fondo del canvas 
+  ellipse(pox, poy, 50, 50); //La ubicación de la elipse al inicio y su tamaño de 60px x 60px sin stroke
   //si la ellipse es de 50 ¿por qué el comentario dice 60px igual que el comentario de la Ange?
   //el comentario dice sin stroke, pero no hay una funcion declarada para eso
   //noStroke();
@@ -40,46 +40,43 @@ void draw() {
 
   if (pox > width) { //si la posición es mayor del ancho del canvas
     dirx = - dirx; //la dirección de x será igual al negativo de la dirección de x
-    fill (cv); //el relleno de la pelota es color verde
+    fill(cv); //el relleno de la pelota es color verde
     stroke(cc); //el borde de la pelota es color celeste
     strokeWeight(10); //el borde será de 10px
   }
 
   if (pox < 0) {  //si la posición de x es menor que 0
     dirx = dirx * -1; //la dirección de x será igual a la dirección de x por el negativo de 1
-    fill (cc); //el relleno de la pelota es color celeste
-    stroke (cc); //el borde de la pelota es color celeste
-    strokeWeight (70); //el borde será de 10px
+    fill(cc); //el relleno de la pelota es color celeste
+    stroke(cc); //el borde de la pelota es color celeste
+    strokeWeight(70); //el borde será de 10px
   }
 
   if (poy > height) { //si la posición y es mayor del alto del canvas
     diry = diry * -1; //la dirección de y será igual a la dirección de y por el negativo de 1
-    fill (cn); //el relleno de la pelota es color negro
-    stroke (cn); //el borde de la pelota es color negro
-    strokeWeight (10); //el borde será de 10px
+    fill(cn); //el relleno de la pelota es color negro
+    stroke(cn); //el borde de la pelota es color negro
+    strokeWeight(10); //el borde será de 10px
   }
 
   if (poy < 0) { //si la posición de y es menor que 0
     diry = - diry; //la dirección de y será igual a la dirección de y por el negativo de 1
-    fill (cv); //el relleno de la pelota es color verde
-    stroke (cv); //el borde de la pelota es color verde
-    strokeWeight (20); //el borde será de 20px
+    fill(cv); //el relleno de la pelota es color verde
+    stroke(cv); //el borde de la pelota es color verde
+    strokeWeight(20); //el borde será de 20px
   }
 }
 
 
 /*
 errores
- COPIA BLOQUES DE CODIGO COMPLETO Y CAMBIA SOLO NOMBRES Y VALORES DE VARIABLES
- NO SE PUEDE CORREGIR PORQUE ES LA MISMA ESTRUCTURA QUE EL TRABAJO DE ANGELICA
- s04t01Ange.pde == s04t01Sofia.pde
  0 run
  0 programa
  0 sintaxis
  0 código:
  0 comentario:
- 0 variables:
- 0 ortografía:
+ 2 variables: no declara noStroke(); ni fill(); inicialmente
+ 12 ortografía: espacios entre la funcion y el paréntesis de los argumentos
  1 notación: no entrega en la carpeta de la semana
  0 github: El error de Laura hizo imposible seguir el camino de los commits :/
  */
