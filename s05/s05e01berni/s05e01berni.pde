@@ -28,13 +28,13 @@ void setup() {
   c2 = color (255, 255, 255); //color blanco
   c3 = color (6, 252, 252); //color celeste
   c4 = color(255, 0, 98); //color rosado
-  x = 1;
+  x = 10;
 }
 
 void draw() { 
   background(c1); //color gris de fondo
   ellipse(cordX, cordY, 50, 50); //ubicación y tamaño de la elipse
-  for (int i = 0; i < width; i +=10) {
+  for (int i = 0; i < width; i +=100) {
     fill(c3);
     ellipse( i, height/2, random(20), random(60));
   }
@@ -78,7 +78,7 @@ void draw() {
       fill (c2);
       //fill (tur, i*j/300);
       //fill (tur * (i*j));
-      ellipse (i, j, 5, 5);
+      ellipse (i, j, 25, 25);
     }
   }
 }
@@ -86,8 +86,8 @@ void draw() {
 
 /*
 errores
- 1 copiar pegar el código: al copiar el método de @Pax y @Vicente no queda claro si entiende lo hecho
- 0 integración for: 
+ 0
+ 2 integración for: los dos for están por encima del elemento, debían estar en el fondo
  0 notación:  
- 0 github:
+ 2 github: summary sin nombre y mensaje diferente al ejercicio
  */

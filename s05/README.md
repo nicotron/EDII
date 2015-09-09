@@ -58,25 +58,24 @@ Entrega (10 de 11):
 - Bernardita Lira
 - Isidora Garin
 - Isidora Vergara
+- Laura Calvo
 - Maximiliano Cordero
 - Paloma Sastre
 - Pascuala Sylleros
 - Sofia Bellinghausen
 - Vicente Politeo
 
-Sin entrega:
-- Laura Calvo
-
 Notas:
 - Angélica Diaz 1.0
 - Andrés Marin pendiente
-- Bernardita Lira 1.0
+- Bernardita Lira 4.8
 - Isidora Garin 7.0
 - Isidora Vergara 6.5
+- Laura Calvo 5.9
 - Maximiliano Cordero 6.0
-- Paloma Sastre 1.0
+- Paloma Sastre 6.0
 - Pascuala Sylleros 7.0
-- Sofia Bellinghausen 1.0
+- Sofia Bellinghausen 4.9
 - Vicente Politeo 6.0
 
 Se hizo un commit de los programas con comentarios de los descuentos.

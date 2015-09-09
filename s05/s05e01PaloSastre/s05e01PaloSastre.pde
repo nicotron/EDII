@@ -84,8 +84,8 @@ void draw() {
 
 /*
 errores
- 1 copiar pegar el código: al copiar el método de @Pax no queda claro si entiende lo hecho
- 0 integración for: 
+ 0
+ 1 integración for: el for loop está adelante del elemento que rebota, debía estar atrás 
  0 notación:  
  0 github:
  */

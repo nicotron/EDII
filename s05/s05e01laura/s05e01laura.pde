@@ -77,3 +77,11 @@ void draw() {
     }
   }
 }
+
+
+/*
+errores
+ 1 integración for: el for loop está adelante del elemento ellipse, debía estár atrás 
+ 1 notación: carpeta dentro de carpeta 
+ 0 github:
+ */

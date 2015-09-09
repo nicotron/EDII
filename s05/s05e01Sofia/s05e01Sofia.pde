@@ -85,9 +85,9 @@ void draw() {
 
 /*
 errores
- 1 copiar pegar el código: al copiar el método de @Pax no queda claro si entiende lo hecho
- 0 integración for: 
+ 0
+ 2 integración for: el for loop debía estar atrás del elemento dibujado y está adelante, además hay dos ellipses del mismo color que solo cambia el tamaño, es redundante si no se hacen distintas 
  0 notación:  
- 0 github:
+ 1 github: el commit es el mismo nombre del archivo con minúsculas s05e01Sofia y no S05e01Sofia
  */
  
