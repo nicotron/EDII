@@ -9,6 +9,8 @@ float posx, posy, velx, vely, dirx, diry;
 float dia, sw, m, n;
 //Variables para colores
 color bla, neg, tur, ver;
+//Variables para fill y stroke de color
+color colorEllipse, colorStroke;
 
 
 void setup () {
@@ -33,10 +35,21 @@ void setup () {
   neg = color (0, 0, 0); //negro
   tur = color (27, 204, 167); //turquesa
   ver = color (128, 255, 130); //verde
+  
+  //Asignación de color a colorEllipse y colorStroke
+  colorEllipse = bla;
+  colorStroke = tur;
 }
 
 
 void draw () {
+  //Color de fondo, ellipse, stroke y tamaño ellipse
+  background (neg);
+  fill (colorEllipse);
+  strokeWeight (sw);
+  stroke (colorStroke);
+  ellipse (posx, posy, dia, dia);
+  
   //Velocidad
   posx = posx + velx * dirx;
   posy = posy + vely * diry;
@@ -44,9 +57,9 @@ void draw () {
   //Si posx mayor al ancho, cambia dirección, fill turquesa, stroke verde de 4
   if (posx > width - dia/2) {
     dirx *= -1;
-    stroke (ver);
+    colorStroke = ver;
     strokeWeight (sw);
-    fill (tur);
+    colorEllipse = tur;
     //if para cambio de valor de m y n
     if (m == 4) {
       m = 6;
@@ -60,9 +73,9 @@ void draw () {
   //Si posx menor a 0, cambia dirección, fill verde, stroke blanco de 4
   if (posx < 0 + dia/2) {
     dirx *= -1;
-    stroke (bla);
+    colorStroke = bla;
     strokeWeight (sw);
-    fill (ver);  
+    colorEllipse = ver;  
     //if para cambio de valor de m y n
     if (m == 4) {
       m = 6;
@@ -76,9 +89,9 @@ void draw () {
   //Si posy mayor al ancho, cambio dirección, fill blanco, stroke turquesa de 4
   if (posy > height - dia/2) {
     diry *= -1;
-    stroke (tur);
+    colorStroke = tur;
     strokeWeight (sw);
-    fill (bla);  
+    colorEllipse = bla;  
     //if para cambio de valor de m y n
     if (m == 4) {
       m = 6;
@@ -92,9 +105,9 @@ void draw () {
   //Si posy menor a 0, cambia dirección, fill blanco, stroke turquesa de 4
   if (posy < 0 + dia/2) {
     diry *= -1;
-    stroke (tur);
+    colorStroke = tur;
     strokeWeight (sw);
-    fill (bla);
+    colorEllipse = bla;
     //if para cambio de valor de m y n
     if (m == 4) {
       m = 6;
@@ -104,10 +117,6 @@ void draw () {
       n = 6;
     }
   }
-  
-  //Color de fondo y ellipse
-  background (neg);
-  ellipse (posx, posy, dia, dia);
   
   //for para generar un patrón de rectángulos que cambian de dirección
   for (int i = 0; i <= width; i += 10) {
