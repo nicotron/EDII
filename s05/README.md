@@ -66,7 +66,7 @@ Entrega (10 de 11):
 - Vicente Politeo
 
 Notas:
-- Angélica Diaz 1.0
+- Angélica Diaz 5.9
 - Andrés Marin pendiente
 - Bernardita Lira 4.8
 - Isidora Garin 7.0
