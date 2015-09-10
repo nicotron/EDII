@@ -1,6 +1,11 @@
 //Expresion digital 2 
 //s06c01 Laura
-//certamen 1donde se queneran 2 circulos los cuales se mueven de acuerdo al movimiento del mouse y al apretar la letra g se genera una linea y al apretar el mouse se borran todos los circulos anteriormente dibujados
+
+/*
+certamen1 donde se queneran 2 circulos los cuales se mueven de acuerdo al movimiento del mouse
+y al apretar la letra g se genera una linea y al apretar el mouse se borran todo lo 
+anteriormente dibujados.
+*/
 
 //colres : rosado, amarillo y blanco
 color c1, c2, c3;
