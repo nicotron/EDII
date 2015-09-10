@@ -1,6 +1,6 @@
 //UDD- Expresión Digital II
 //s06c01IsidoraV 
-//Una pelotita de color verde rebotando por el lienzo azul, atras se ven varias pelotitas negras, al apretar 'c' los colores cambian y se agranda el tamaño de la pelotita, al apretar espacio las pelotitas del fondo se cambian por lineas, al mover el mouse por el lienzo de modo horizontal la opacidad de, tanto las pelotitas como las lineas, cambia
+//Una pelotita de color verde rebotando por el lienzo azul, atras se ven varias pelotitas negras, al apretar 'c' los colores cambian y se agranda el tamaño de la pelotita, al apretar el mouse las pelotitas del fondo se cambian por lineas, al mover el mouse por el lienzo de modo horizontal la opacidad de, tanto las pelotitas como las lineas, cambia, cuando apretas espacio se generan dos lineas del color de la pelotita que se mueve a su alrededor
 
 //Posicion y diametro
 float x, y, d;
