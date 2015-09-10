@@ -29,7 +29,6 @@ void setup () {
   cBackground = c3c;
   cPelotitas = c1b;
 
-
   //inicialización de posición y dirección
   //la posición no se inicializa en 0 porque luego no se pude restar el diametro para que rebote bien
   px = width/4; 
