@@ -80,17 +80,14 @@ void draw() {
 }
 
 //funciones teclado
-
 void keyPressed() {
 
   //si se presiona el spacebar cambia el color de las figuras geométricas
-
   if (key == ' ') {
     q = !q;
   }
 
   //si se presiona la tecla "a" se refresca el fondo borrando el dibujo
-
   if (key == 'a') {
     background(b);
   }
