@@ -57,8 +57,6 @@ void draw() {
   //Si circleX es mayor al width, cambia de direccion, fill blanco, stroke verde de 10 
   if (circleX > width) {
     moveX = -moveX;
-    fill(rellenoCirculo);
-    stroke(bordeCirculo);
     strokeWeight(10);
     rellenoCirculo = cb;
     bordeCirculo = cv;
@@ -68,8 +66,6 @@ void draw() {
   //Si circleY es mayor al height, cambia de direccion, fill negro, stroke rosado de 20 
   if (circleY > height) {
     moveY = -moveY;
-    fill(rellenoCirculo);
-    stroke(bordeCirculo);
     strokeWeight(20);
     rellenoCirculo = cn;
     bordeCirculo = cr;
@@ -79,8 +75,6 @@ void draw() {
   //Si circleX es menor a 0, cambia de direccion, fill blanco, stroke rosado de 30
   if (circleX < 0) {
     moveX = -moveX; 
-    fill(rellenoCirculo);
-    stroke(bordeCirculo);
     strokeWeight(30);
     rellenoCirculo = cb;
     bordeCirculo = cr;
@@ -90,8 +84,6 @@ void draw() {
   //Si circleY es menor a 0, cambia de direccion, fill negro, stroke verde de 40 
   if (circleY < 0) {
     moveY = -moveY;
-    fill(rellenoCirculo);
-    stroke(bordeCirculo);
     strokeWeight(40);
     rellenoCirculo = cn;
     bordeCirculo = cv;
