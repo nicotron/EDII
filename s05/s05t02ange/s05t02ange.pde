@@ -1,6 +1,9 @@
 //UDD - Expresión Digital II
 //s05t02ange
-//reescribir s05e01 con nuevos comentarios y parametros de mejor escritura, también mejorar el for y yo cambie el fondo
+/*
+reescribir s05e01 con nuevos comentarios y parametros de mejor 
+ escritura, también mejorar el for y yo cambie el fondo
+ */
 
 //varibles de colores
 color c1b, c2n, c3c, c4o;
@@ -14,7 +17,7 @@ float px, py, dx, dy;
 //varibles de distancia en el fondo, strokeWeight
 int z, sg; 
 
-void setup () {
+void setup() {
   size(500, 500); //tamaño del canvas de 500 px por 500 px
 
   //colores
@@ -42,10 +45,10 @@ void setup () {
 }
 
 void draw() {
-   background(cBackground); 
+  background(cBackground); 
   //for que genera pelotitas de fondo que van de i,j y su tamaño es mas grande hacia la esquina inferior derecha por el loop 
-  for (int i = 0; i <= width; i += z) {
-    for (int j = 0; j <= height; j += z) { 
+  for (float i = 0; i <= width; i += z) {
+    for (float j = 0; j <= height; j += z) { 
       fill(cPelotitas);
       noStroke(); 
       ellipse(i, j, i/50, j/50);
@@ -102,3 +105,16 @@ void draw() {
   }
 }
 
+/*
+errores
+ 0 run
+ 0 programa
+ 0 sintaxis
+ 0 código:
+ 1 comentario: descripción del programa en bloque de comentario
+ 0 variables:
+ 1 ortografía: 
+ 1 notación: s05t02ange - s05t02Ange
+ 2 github: s05t02ange + la descripción dice "prematuros"
+ 
+*/

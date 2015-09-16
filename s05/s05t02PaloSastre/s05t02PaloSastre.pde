@@ -1,7 +1,9 @@
 //UDD - Expresion Digital II
 //s05t02PaloSastre
-//cambio de forma en la que están escritas las variables, en un código que usa un doble for loop.
-
+/*
+cambio de forma en la que están escritas las variables, 
+en un código que usa un doble for loop.
+*/
 //Colores
 color cn, cb, cr, cv, rellenoCirculo, bordeCirculo;
 
@@ -43,7 +45,7 @@ void draw() {
   for (int i = 0; i <= height; i += x) {
     for (int j = 0; j <= height; j += x) {
       ellipse(i, j, 20, 20);
-      fill (cv);
+      fill(cv);
       noStroke();
     }
   }
@@ -91,3 +93,59 @@ void draw() {
   }
 }
 
+/*
+errores
+ 0 run
+ 0 programa
+ 0 sintaxis:
+   2 inicialización de velocidad
+   circleX = circleX + moveX;
+   circleX += moveX;
+   
+   4 cambio de valor en velocidad
+   moveX = -moveX;
+   moveX *= -1;
+   
+   4 en if: reescribe funciones y no asigana valores
+   strokeWeight(30); 30 es el valor que debe estar en una variable
+   strokeWeight(variable);
+   
+   1 for loop: dibuja y luego pinta por eso
+   el primer elemento no tiene los valores que se quiere
+   ellipse(i, j, 20, 20);
+   fill(cv);
+   noStroke();
+   
+   fill(cv);
+   noStroke();
+   ellipse(i, j, 20, 20);
+   
+   1 mezcla de bloques de texto:
+   //dibujo - background
+   //velocidad   
+   //dibujo
+   //dibujo
+   //condicionales
+   
+   
+   //velocidad
+   //dibujo - background
+   //dibujo
+   //dibujo
+   //condicionales
+   
+   ó
+   //dibujo - background
+   //dibujo
+   //dibujo
+   //velocidad
+   //condicionales
+   
+ 
+ 0 código:
+ 1 comentario: descripción en bloque de comentario
+ 0 variables:
+ 1 ortografía: espacios 
+ 0 notación: 
+ 1 github: mensaje no describe lo que trata la tarea 
+ */
