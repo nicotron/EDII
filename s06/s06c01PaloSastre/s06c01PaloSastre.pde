@@ -1,7 +1,13 @@
 //UDD - Expresion Digital II
 //s06c01PaloSastre
-//Al mover el mouse de izquierda a derecha, aparecen lineas verticales y/o circulos. Si lo muevo de arriba a abajo, el fondo cambia de negro a blanco. Al apretar las teclas "a" o "s", cambia el grosor del stroke y los colores de los circulos y lineas se intercambian. Si se hace y se mantiene el click, aparece una linea gruesa en la mitad de la pantalla que cambia el inicio de ella según mouseY.
-
+/*
+Al mover el mouse de izquierda a derecha, aparecen lineas verticales y/o circulos. 
+Si lo muevo de arriba a abajo, el fondo cambia de negro a blanco. 
+Al apretar las teclas "a" o "s", cambia el grosor del stroke y los colores de los circulos 
+y lineas se intercambian. 
+Si se hace y se mantiene el click, aparece una linea gruesa en la mitad de la pantalla 
+que cambia el inicio de ella según mouseY.
+*/
 //Colores
 color a, cb, cn, co, ca, strokeLinea;
 

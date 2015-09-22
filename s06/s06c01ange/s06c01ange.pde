@@ -1,7 +1,10 @@
 //UDD - Expreción Digital II 
 //s06c01ange
-//programa que cundo se mueve el mouse se pinta del color que indica el teclado y al hacer click se vuelve a dibujar el fondo también tiene un for que hace que pelotitas del fondo se agrande o se achiquen segun el mouse
-
+/*
+programa que cuando se mueve el mouse se pinta del color que indica el teclado y al hacer click se vuelve 
+a dibujar el fondo también tiene un for que hace que pelotitas del fondo se agrande o se achiquen segun 
+el mouse
+*/
 //variable colores
 color c1, c2, c3, c4;
 
@@ -90,7 +93,7 @@ void keyPressed () {
 
 //click del mouse
 void mousePressed() {
-  //al hacer click con el mouse se dibuja el fondo denuevo y se borra todo lo anterior
+  //al hacer click con el mouse se dibuja el fondo de nuevo y se borra todo lo anterior
   background(cBackground);
 }
 

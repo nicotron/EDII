@@ -38,7 +38,6 @@ void setup() {
 }
 
 void draw() {
-
   //movimiento de las figuras siguiendo al mouse
   translate(posX, posY);
   posX = mouseX;

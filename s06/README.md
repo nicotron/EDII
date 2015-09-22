@@ -7,7 +7,7 @@ Durante el período Agosto a Diciembre de 2015.
 Curso dictado por:
 Nicolás Troncoso
 
-Alumnos: Angélica Diaz - Andrés Marin - Bernardita Lira - Carlos Gasan - Isidora Garin - Isidora Vergara - Laura Calvo - Maximiliano Cordero - Paloma Sastre - Pascuala Sylleros - Sofia Bellinghausen - Vicente Politeo. 
+Alumnos: Andrés Marin - Angélica Diaz - Bernardita Lira - Carlos Gasan - Isidora Garin - Isidora Vergara - Laura Calvo - Maximiliano Cordero - Paloma Sastre - Pascuala Sylleros - Sofia Bellinghausen - Vicente Politeo. 
 
 # Certamen 01
 
@@ -56,13 +56,31 @@ Tendrá relación con lo descrito en el inicio del programa a través de bloques
 (1) Redacción 45% de la nota.
 Descuentos a partir de nota 7.0
 	· run:			7.0
-	· programa:	0.5
+	· programa:		0.7
 	· sintaxis:		0.25
 	· variables:	0.25
 	· código:		0.15
-	· ortografía:	0.1
+	. comentarios:	0.1	
+	· ortografía:	0.01
 	· notación:		0.1
-	· github		0.1
+	· github:		0.1
 
 (2) Interacción 20% de la nota.
 Coherencia en el cambio en el flujo del programa.
+
+Se entregó dos documentos con cada entrega, dentro de una carpeta corrección:
+	. corrección.pdf destacando los errores
+	. corrección.rtf con el detalle de los errores, correcciones, comentarios y el desglose de la nota. 
+
+Notas:
+- Andrés Marin 3.9
+- Angélica Diaz 6.6
+- Bernardita Lira 3.0
+- Isidora Garin 5.3
+- Isidora Vergara 5.4
+- Laura Calvo 4.4
+- Maximiliano Cordero 5.2
+- Paloma Sastre 6.0
+- Pascuala Sylleros 5.5
+- Sofia Bellinghausen 2.8
+- Vicente Politeo 5.5

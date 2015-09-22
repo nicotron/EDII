@@ -17,7 +17,7 @@ void setup () {
   vely = 18; //velocidad en y de 2
   dirx = 1; //dirección en x de 1
   diry = 1; //dirección en y de 1
-  dia2 = 120;
+  dia2 = 10;
   sw = 5; //strokeWeight de 5
   c1 = color(0, 0, 0); //color negro
   t = true;
