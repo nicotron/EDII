@@ -1,6 +1,7 @@
 //UDD - Expresion Digital II
 //s07e01PaloSastre
 //crear una variable que adopta el mismo valor que otras dos variables según apreto las flechas de izquierda y derecha en el keyboard.
+// 
 
 float s1, s2, s3;
 color c1, c2, c3;
