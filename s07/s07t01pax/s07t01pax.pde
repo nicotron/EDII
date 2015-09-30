@@ -1,6 +1,10 @@
 //udd - expresión digital II
 //s07t01Pax
-//crear dos funciones especificas que dibujen 2 elementos y que se pueda interactuar con estos
+//crear dos funciones especificas que dibujen 2 elementos y que se pueda interactuar con estos.
+//Al mover el mouse, el triangulo y los elipses cambian de tamaño. 
+//Al hacer click, el mosaico cambia de posición. Al mover el mouse
+//en el eje y, cambia el color del mosaico. Al apretar las flechas de
+//izq y derecha, cambia el color del fondo.
 
 //variables
 color cr, ct, cn, cb, c3, cg, c4, ctrans, cro;
