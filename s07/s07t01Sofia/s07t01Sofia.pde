@@ -4,11 +4,18 @@
 //Alrededor de las puntas del triángulo, hay cuatro elipses los cuales al moverlos
 //alrededor del canvas se separan o se juntan.
 //Al apretar la letra ''a'', los colores de los triángulos cambiarán al color fucsia
-//Al apretar la letra ''b'', los colores de los triángulos volveran al color incicial (celeste).
+//Al apretar la letra ''b'', los colores de los triángulos volveran al color incicial (celeste
+//Al apretar la letra ''s'' aparecen los triángulos
+//Al apretar la letra ''d'' aparecen los circulos
+//Al apretar la letra ''z'' desaparecen las dos funciones específicas
+//Al apretar la letra ''x'' aparecen las dos funciones específicas
 
 //variables color y stroke
 color cv, cc, cb, cn;
 float s1, s2, s3, s4;
+
+boolean s;
+boolean sofia;
 
 //variable color triangulo
 color tri;
@@ -30,12 +37,25 @@ void setup() {
   s2 = 10;
   s3 = 15;
   s4 = 20;
+
+  s = false;
+  sofia = false;
 } 
 
 void draw() {
   background(cn);
-  triangle(mouseX, mouseY, mouseY);
-  ellipse(mouseX, mouseY, mouseY);
+
+  if (s == true) { 
+    triangle(mouseX, mouseY, mouseY);
+  } 
+
+  if (s == false) { 
+    ellipse(mouseX, mouseY, mouseY);
+  }
+  if (sofia == true) {
+    triangle(mouseX, mouseY, mouseY);
+    ellipse(mouseX, mouseY, mouseY);
+  }
 }
 
 //función específica 1
@@ -70,5 +90,18 @@ void keyPressed () {
   //al apretar la tecla 'b' los colores del triángulo pasarán al color celeste
   if (key == 'b') {
     tri = cc;
+  }
+  if (key == 's') {
+    s = true; //aparecen triangluos
+  }
+
+  if (key == 'd') {
+    s = false;
+  }
+  if (key == 'z') {
+    sofia = false;
+  }
+  if (key == 'x') {
+    sofia = true;
   }
 }
