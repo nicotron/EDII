@@ -7,7 +7,7 @@ void setup() {
   noStroke();
   background(255, 0, 255);
   r = 0;
-  transparencia = 50;
+  transparencia = 150;
 }
 void draw() {
   //un rectangulo con alpha para reemplazar el background
@@ -18,9 +18,7 @@ void draw() {
   //elemento
   translate(mouseX, mouseY);
   rotate(r);
-  fill(0, 255, 255);
-  rectMode(CENTER);
-  rect(0, 0, 20, 50);
-  r += 0.1;
+  mickeyMouse();
+  r += 0.05;
 }
 
