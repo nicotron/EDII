@@ -1,8 +1,9 @@
 //UDD - Expreción Digital II
 //s07t01ange
-/*Programa con funciones especificas, de las cuales una parte de la funcion cubo sigue al mouse haciendo de foco y ilumina a la función figura2 cuando este pasa por esa zona, 
- también se si se preciona la tecla "a" todo cambia a su color contrario y si se apreta "s" todo los colores cambian nuevamente, al hacer click con el mouse este vuelve al punto del
- centro o de inicio*/
+/*Programa con funciones especificas, de las cuales una parte de la funcion cubo sigue al mouse haciendo de foco 
+y ilumina a la función figura2 cuando este pasa por esa zona, también se si se preciona la tecla "a" todo cambia 
+a su color contrario y si se apreta "s" todo los colores cambian nuevamente, al hacer click con el mouse este 
+vuelve al punto del centro o de inicio*/
 
 //variable colores
 color c1, c2, c3, c4;
@@ -126,3 +127,18 @@ void mousePressed() {
   mouseY = 250;
 }
 
+/*
+Tus funciones no se sustituyen entre sí, requerimiento de la tarea. 
+La lógica de cambiar colores entre ellos con dos letras distintas tiene errores de lógica, 
+es recomendado hacerlo solo con una e incluir booleans para eso.
+
+Pudiste usar strokeJoin(ROUND); para que no se vieran las puntas de los triángulos fuera del rectángulo.
+Puedes investigar dos cosas:
+  1: por lógica si al hacer 'a' o 's' se sustituyen los estados,
+  es recomendado hacer una boolean y usar el operador =! así 
+  al hacer un click sin importar el estado inicial de colores, 
+  estos se alternarán constantemente, en tu código si apreto 's' nada cambia.
+ 
+  2: agregar la función dist(); en el alplha del fill de la función figura2 
+  para que a medida que el cubo se acerca más a la fgiura2, esta se ilumina más.    
+*/

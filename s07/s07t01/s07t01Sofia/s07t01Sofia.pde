@@ -105,3 +105,18 @@ void keyPressed () {
     sofia = true;
   }
 }
+
+/*
+Tienes 3 errores de lógica para cambar colores y sustuir entre funciones
+La lógica de cambiar colores entre ellos con dos letras distintas tiene errores de lógica, 
+es recomendado hacerlo solo con una e incluir booleans para eso.
+Además al apretar la 'z' no para lo que describes. 
+
+Intenta lo siguiente:
+  1: por lógica si al hacer 'z' o 'x' se sustituyen los estados,
+  es recomendado hacer una boolean y usar el operador =! así 
+  al hacer un click sin importar el estado inicial de colores, 
+  estos se alternarán constantemente, en tu código si apreto 'z' nada cambia.
+
+*/
+

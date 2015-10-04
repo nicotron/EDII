@@ -63,6 +63,8 @@ void keyPressed() {
     ne = az;
     az = am;
     am = bl;
+    
+    
   }
   /*al apretar la tecla "a" cambian los colores de las transparencias
    de los objetos y del fondo*/
@@ -74,3 +76,9 @@ void keyPressed() {
   }
 }
 
+/*
+Tus funciones no se sustituyen entre sí, requerimiento de la tarea.
+Si pudieras explicarme la lógica de rotación del elemento más pequeño, sería súper bueno
+para nuevas entregas con movimientos más complejos. 
+Así como también la lógica de keyPressed ya que tiene un loop de tres estados, ¿entiendes lo que escribiste?
+*/

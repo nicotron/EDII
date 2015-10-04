@@ -72,4 +72,14 @@ void keyPressed() {
     e = bg1;
   }
 } 
-   
+
+/*
+Tus funciones no se sustituyen entre sí, requerimiento de la tarea.
+La lógica de cambiar colores entre ellos con dos letras distintas 
+es recomendado hacerlo solo con una e incluir booleans para eso.
+Como requerimientos de notación, las funciones se escriben con minúsuculas.
+Esto es fundamental al momento en que lleguemos a escribir Clases, que son con Mayúsuclas
+y así evitar confucinoes de código.
+Puedes investigar hacer las flores son for loop, haciendo rotar las ellipses
+y que se disminuya o aumente su tamaño con i y dividir con TWO_PI (360º) en 6
+*/   

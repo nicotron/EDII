@@ -126,20 +126,28 @@ void mosaico (float x1, float y2, float x2, float y1, float x3, float y3) {
     a = 100;
     b = -300;
   } else {
-      a = 0;
-      b = 0;
-    }
-  } 
+    a = 0;
+    b = 0;
+  }
+} 
 
-  //flechas cambian el color de fondo
-  void keyPressed () {
-    if (key == CODED) {
-      if (keyCode == LEFT) {
-        c3 = cg;
-      }
-      if (keyCode == RIGHT) {
-        c3 = cn;
-      }
+//flechas cambian el color de fondo
+void keyPressed () {
+  if (key == CODED) {
+    if (keyCode == LEFT) {
+      c3 = cg;
+    }
+    if (keyCode == RIGHT) {
+      c3 = cn;
     }
   }
+}
 
+/*
+Tus funciones no se sustituyen entre sí, requerimiento de la tarea.
+Tienes un error de lógica al escribir dentro de la función mosaico, las condicionales para mousePressed.
+Es una buena práctica escribir por separado dentro del void mousePressed(){} todas las interacciones que 
+quieras que estén en el programa. 
+En el caso de tu programa al usar variables globales dentro de las condicionales de mousePressed,
+no debería estar en la función mosaico.
+*/

@@ -65,3 +65,14 @@ void superstar(float posx, float posy, float ancho) {
   }
 }
 
+
+/*
+Tus funciones no se sustituyen entre sí, requerimiento de la tarea. 
+La lógica de cambiar colores entre ellos con dos letras distintas tiene errores de lógica, 
+es recomendado hacerlo solo con una e incluir booleans para eso.
+
+La lógica de usar un keyPressed dentro de cada función llega a un flujo erróneo del programa
+Una buena práctica es escribir las funciones gráficas por separado y usarlas por medio
+del voi KeyPressed de manera separada. 
+Trata de reescribir el código de esta manera.
+*/
