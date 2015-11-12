@@ -1,3 +1,6 @@
+//UDD - Expresión Digital II
+//s13c02Vicente
+//visualizacion de datos correspondientes al clima de la ciudad de Boston 2014
 import processing.pdf.*;
 
 
