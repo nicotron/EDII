@@ -56,11 +56,11 @@ void draw() {
         float hummed = float(dia[nums][8]);
         float hummin = float(dia[nums][9]);
         float vismin = float(dia[nums][15]);
-        float vmedviento = float(dia[nums][17]);
+        float viento = float(dia[nums][17]);
         float nube = float(dia[nums][20]);
 
         //FUNCION
-        visualizacion(x1, y1, temmax, temmed, temmin, rocio, hummax, hummed, hummin, vismin, vmedviento, nube);
+        visualizacion(x1, y1, temmax, temmed, temmin, rocio, hummax, hummed, hummin, vismin, viento, nube);
       }
     }
   }
