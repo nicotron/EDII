@@ -21,3 +21,6 @@ Nicolás Troncoso @nicotron
 |Pascuala | todas las rotaciónes están erradas, la formula es (TWO_PI/360) se usó (TWO_PI * 360). x1, y1 repetido dos veces en el primer bloque de código. strokeWeight(3*hummax*0.1); aunque esté dentro de un push-pop afecta el resto al no tener strokeWeight() | uso de mapa para contextualizar, aunque no hay uso de base de datos | 5.00 | 5.50 | 5.47 |  | 5.32 | 3.73 | 0.91
 |Sofia | x1, y1 repetido, colores RGB en impresión CMYK | no uso de base de datos | 4.80 | 2.80 | 4.14 | 0.20 | 4.11 | 2.88 | 3.73
 |Vicente | distinto factor en mismo grupo de variables, menor uso de variables que el resto | dirección del viento ambigua | 5.50 | 5.50 | 5.24 |  | 5.41 | 3.79 | 0.71
+
+
+*Max al entregar con una semana de retraso se le descontó un punto a su nota original 4.0*
