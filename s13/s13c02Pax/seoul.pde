@@ -1,6 +1,6 @@
 void seoul(float x1, float y1, String fecha, float hummed, float tempmed, float hummax, float hummin, float tempmin, float tempmax, float maxvis, float minvis, float lluvias, float maxviento, float minviento, float maxpresion, float minpresion) {
-  float ap = tempmed * (TWO_PI *360);
-  float apm = maxvis * (TWO_PI *360);
+  float ap = tempmed * (TWO_PI *360); // es dividido
+  float apm = maxvis * (TWO_PI *360); // es dividido
 
  pushMatrix();
   translate(x1, y1);

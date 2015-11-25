@@ -37,6 +37,10 @@ void draw() {
       int nums = 1 + y+x*filas;
       if ((nums >= 0) &&(nums <= 365)) {
 
+        if (nums == 281) {  //este es tu día de cumpleaños
+          ellipse(x1, y1, 30, 30);
+        }
+
         micumpleanos = dia[281][0];
         fecha = dia[nums][0];
         tmax = float(dia[nums][1]);
