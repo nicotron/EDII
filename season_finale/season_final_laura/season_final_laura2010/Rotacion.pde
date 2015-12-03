@@ -62,7 +62,7 @@ class Rotacion {
     //son tus figuras
       noStroke();
       fill(d);
-      ellipse(maxvi*12,maxvi*12,3,3);
+      ellipse(maxvi*12,maxvi*12,6,6);
     
       fill(c);
       ellipse(minvi*11,minvi*11,3,3);

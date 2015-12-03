@@ -11,11 +11,11 @@ void setup() {
 }
 
 void draw() {
-    beginRecord(PDF,"rio2010.pdf");
+    // beginRecord(PDF,"rio2010.pdf");
   background(255);
   for (int i = 1; i < di.length; i++){
     di[i].go(i);
     di[i].display(i);
   }
-  endRecord();
+  // endRecord();
 }
