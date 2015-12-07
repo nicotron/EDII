@@ -1,7 +1,7 @@
 void pokebola(float x, float y, float t, float total){
   
   noStroke();
-  fill(tot);
+  fill(tot, 50);
   ellipse(x, y, total/5, total/5);
   
   stroke(cc);

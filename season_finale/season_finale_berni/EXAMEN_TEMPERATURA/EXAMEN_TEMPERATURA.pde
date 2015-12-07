@@ -63,7 +63,7 @@ void setup (){
   for (int i = 0; i < sydney.length; i++) {
     diaSY[i] = sydney[i].split(","); //elemtos separados por comas
   }
-  beginRecord(PDF, "imprimir_datos.pdf");
+  // beginRecord(PDF, "imprimir_datos.pdf");
 }
 
 void draw () {
@@ -98,5 +98,5 @@ void draw () {
       }
     }
   }
-   endRecord();
+   // endRecord();
 }

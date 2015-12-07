@@ -107,7 +107,7 @@ void draw() {
         vmedlond = float(dlond[nums][17]);
 
         vmax(x1, y1, vmaxlisb, vmaxmad, vmaxpari, vmaxrom, vmaxberl, vmaxbern, vmaxvien, vmaxamst, vmaxbrus, vmaxlond);
-        vmed(x1, y1, vmedlisb, vmedmad, vmedpari, vmedrom, vmedberl, vmedbern, vmedvien, vmedamst, vmedbrus, vmedlond);
+        // vmed(x1, y1, vmedlisb, vmedmad, vmedpari, vmedrom, vmedberl, vmedbern, vmedvien, vmedamst, vmedbrus, vmedlond);
       }
     }
   }

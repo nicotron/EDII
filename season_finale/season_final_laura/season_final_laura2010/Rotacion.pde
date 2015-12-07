@@ -41,11 +41,11 @@ class Rotacion {
   void go(int i) {
     float a = i * (TWO_PI/365);
 
-    x = width/2 + maxvi* sin(a);
-    y = height/2 + maxvi * cos(a);
+    x = (maxvi+200)* sin(a);
+    y =  (maxvi +200)* cos(a);
     
-      x2 = width/2 * sin(a);
-    y2 = height/2 * cos(a);
+      x2 =( minvi+ 100) * sin(a);
+    y2 = ( minvi +100) * cos(a);
   }
   void display(int i) {
     fill(d);
@@ -56,16 +56,16 @@ class Rotacion {
 
     pushMatrix();
     float a = i * (TWO_PI/365);
-    translate(x, y);
+    translate(width/2, height/2);
     rotate(-a);
     
     //son tus figuras
       noStroke();
       fill(d);
-      ellipse(maxvi*12,maxvi*12,6,6);
+      ellipse(x, y,6,6);
     
       fill(c);
-      ellipse(minvi*11,minvi*11,3,3);
+      ellipse(x2, y2,3,3);
 
       
      popMatrix();

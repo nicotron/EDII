@@ -13,21 +13,23 @@ void seoul(float x1, float y1, String fecha, float hummed, float tempmed, float 
   float mapminpresion = map (minpresion, 990, 1037, 0, 25);
   
 
-  fill(24,214,205,maptempmax2);
-  noStroke();
-  rectMode(CENTER);
-  rect(0, 0, mapmaxvis, mapminvis);//cuadrados
+  // fill(24,214,205,maptempmax2);
+  // noStroke();
+  // rectMode(CENTER);
+  // rect(0, 0, mapmaxvis, mapminvis);//cuadrados
 
-  stroke(ctt);
-  strokeWeight(15);
-  line(maptempmax, 0, maptempmin, 0 );//lienas verdes
+  // stroke(ctt);
+  // strokeWeight(15);
+  // line(maptempmax, 0, maptempmin, 0 );//lienas verdes
 
-  stroke(cro);
-  strokeWeight(6);
-  line(0,mapmaxpresion,0,maphummax);
+  // stroke(cro);
+  // strokeWeight(6);
+  // line(0,mapmaxpresion,0,maphummax);
   
   stroke(con);
   strokeWeight(4);
   line(mapminpresion,0,maphummin,0);
+  stroke(255);
+  point(0, 0);
   popMatrix();
 }
