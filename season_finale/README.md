@@ -78,7 +78,7 @@ Bernardita Lira | 4.7 | 4.5
 Isidora Garin | 4.5 | 5.2
 Vicente Politeo | 4.5 | 5.1
 Maximiliano Cordero | 3.0 | 3.8
-Sofia Bellinghausen | 1.0 | 1.0
+Sofia Bellinghausen | 5.0 | 4.3
 Andrés Marín | 1.0 | 1.0
 ---
 
@@ -101,7 +101,7 @@ Andrés Marín | 1.0 | 1.0
 
 **Maximiliano**: En general la entrega fue deficiente, teniendo en cuenta la carga académica abundante, que es responzabilidad del alumno, se disminuyó la rigurosidad en las correcciones tanto del certamen 02 como del examen en cuanto al tiempo de entrega como un acto de confianza para una entrega completa. Esto no sucedió ya que se entregó solo el 40% del contenido requerido para el examen, y de lo que se entregó existen los siguientes errores: La calidad gráfica de la entrega es muy baja  ya que se realiza en **jpg** y se imprime con una resolución muy baja; Las desiciones de imágenes en el fondo obstaculizar la lectura del mensaje; Hay detalles que son muy dificiles de leer y otros que es imposible de hacerlo; La descripción de la entrega en un archivo README.md no existe al momento de corregir por lo que nuevamente se da otra oportunidad de entregarlo, lo que no cumple con los requerimientos del examen al entregar un archivo.txt con una descripción escasa que no ayuda a entender la entrga. La calidad de la entrega no llega a cumplir lo necesario para aprobar el ramo en donde se corrige en su totalidad cómo se aborda el trabajo y la rigurosidad con se realizan los requerimientos de las entregas; procesos que han sido trabajados y recordados a lo largo de todo el semestre.  
 
-**Sofia**: Por el momento está reprobada al no entregar, aunque tiene la posibilidad de re-agendar la corrección al acusar problemas de salud. 
+**Sofia**: La entrega fue completa, en el tiempo, tuvo errores en la posición de la oscilación y una doble rotación en líneas, generalmente entiende el flujo del programa que escribió. 
 
 **Andrés**: No realizó entrega por lo que es reprobado.  
 
